@@ -9,6 +9,7 @@ import Stats from '../components/home/Stats'
 import PopularPlaces from '../components/home/PopularPlaces'
 import OurGallery from '../components/home/OurGalllery'
 import NewsLetter from '../components/home/NewsLetter'
+import Dropdwon from '../components/Dropdown'
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       <OurGallery/>
       <NewsLetter/>
       <Footer />
+      <Dropdwon/>
     </div>
 
   )
