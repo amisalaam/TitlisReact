@@ -17,7 +17,7 @@ function App() {
         <Route path="*" element={<PageNotFound />} />
 
 
-        <Route path="/" element={<Dropdwon/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/all/packages" element={<Packages />} />
         <Route path="plans/details" element={<PackageDetails />} />
         <Route path='all/packages/plans/:packageId' element = {<PackagePlans />} />
