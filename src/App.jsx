@@ -23,7 +23,6 @@ function App() {
         <Route path='all/packages/plans/:packageId' element = {<PackagePlans />} />
         <Route path="/news" element={<News_Blogs />} />
         <Route path="/about" element={<About_us />} />
-        {/* <Route path='/dropdown' elemenet={D} */}
 
 
       </Routes>
