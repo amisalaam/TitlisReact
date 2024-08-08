@@ -18,7 +18,7 @@ function Feed() {
 
           {/* Travel News button */}
           <div className='text-center md:text-start border border-black rounded-r-lg'>
-            <span className='rounded-lg font-bold flex justify-center p-2'>Travel News</span>
+            <span className='rounded-lg font-bold flex justify-center p-2'>Customer Review</span>
           </div>
 
           {/* Horizontal line on the right */}
@@ -28,8 +28,7 @@ function Feed() {
         </div>
       </div>
 
-      {/* BODY */}
-      {/* Add your responsive content here */}
+
     </div>
   );
 }
