@@ -7,7 +7,6 @@ import PackageDetails from './pages/PackageDetails';
 import About_us from './pages/About_us';
 import PageNotFound from './pages/PageNotFound';
 import PackagePlans from './pages/PackagePlans';
-import Dropdwon from './components/Dropdown';
 
 function App() {
   return (
