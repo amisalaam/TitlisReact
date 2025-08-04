@@ -15,30 +15,28 @@ const Why = () => {
                 <div className='text-center mx-6'>
                     <h1 className='text-[5rem]  flex justify-center '><BsFilePerson /></h1>
                     <h6 className='font-bold my-4'>Friendly Tour Guide</h6>
-                    <p className='text-[12px] text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p className='text-[12px] text-gray-600'>Our experienced and knowledgeable tour guides make every journey memorable with their local expertise, friendly approach, and passion for sharing the best hidden gems and cultural insights of each destination.</p>
                 </div>
 
                 <div className='text-center mx-6'>
-
                     <h1 className='text-[5rem]  flex justify-center '><BsFilePerson /></h1>
                     <h6 className='font-bold my-4'>Full Facility</h6>
-                    <p className='text-[12px] text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-
+                    <p className='text-[12px] text-gray-600'>We provide comprehensive travel services including accommodation, transportation, meals, activity bookings, and 24/7 customer support to ensure you have everything you need for a perfect vacation experience.</p>
                 </div>
+                
                 <div className='text-center mx-6'>
-
                     <h1 className='text-[5rem]  flex justify-center '><BsFilePerson /></h1>
                     <h6 className='font-bold my-4'>Fast Booking</h6>
-                    <p className='text-[12px] text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p className='text-[12px] text-gray-600'>Our streamlined online booking system allows you to reserve your dream vacation in just a few clicks. Get instant confirmation and secure your travel dates without any hassle or lengthy procedures.</p>
                 </div>
+                
                 <div className='text-center mx-6'>
-
                     <h1 className='text-[5rem] flex justify-center '><BsFilePerson /></h1>
                     <h6 className='font-bold my-4'>Worldwide Support</h6>
-                    <p className='text-[12px] text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-
+                    <p className='text-[12px] text-gray-600'>No matter where your adventures take you, our global support network is available around the clock to assist you with any travel concerns, emergency situations, or last-minute changes to your itinerary.</p>
                 </div>
             </div>
+            
             <div className='grid md:grid-cols-2  '>
                 <div className='md:text-end text-center'>
                     <h1 className='text-4xl font-semibold text-titlisRed'>LET'S JOIN WITH US</h1>

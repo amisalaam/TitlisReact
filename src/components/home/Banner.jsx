@@ -6,9 +6,6 @@ import { PiStarFourFill } from 'react-icons/pi';
 function Banner() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3 mx-auto w-full max-w-screen-xl space-y-4 md:space-y-0 mt-16 md:mt-0 dark:border-gray-600">
-        <div className="absolute left-0 w-full p-4 bg-red-300 text-yellow-900 text-center font-bold text-lg dark:bg-red-600 dark:text-yellow-100">
-          This page is under development
-        </div>
       <div className="flex flex-col justify-center p-4 md:p-8">
         <h1 className="text-left text-5xl md:ml-8 font-bold text-black dark:text-white">
           Explore <br />
