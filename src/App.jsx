@@ -1,32 +1,23 @@
-import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from './pages/Home'
-import Packages from './pages/AllPackages';
-import News_Blogs from './pages/News_Blogs';
-import PackageDetails from './pages/PackageDetails';
-import About_us from './pages/About_us';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
 import PageNotFound from './pages/PageNotFound';
-import PackagePlans from './pages/PackagePlans';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Support from './pages/Support';
+import TermsOfService from './pages/TermsOfService';
 
 function App() {
   return (
     <Router>
       <Routes>
-
+        <Route path="/" element={<Home />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
+        <Route path="/support" element={<Support />} />
         <Route path="*" element={<PageNotFound />} />
-
-
-        <Route path="/" element={<Home/>} />
-        <Route path="/all/packages" element={<Packages />} />
-        <Route path="plans/details" element={<PackageDetails />} />
-        <Route path='all/packages/plans/:packageId' element = {<PackagePlans />} />
-        <Route path="/news" element={<News_Blogs />} />
-        <Route path="/about" element={<About_us />} />
-
-
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;

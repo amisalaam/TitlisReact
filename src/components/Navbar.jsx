@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center">
           <img
             src={Logo}
-            className="h-[5rem] lg:h-[6rem] p-4"
+            className="h-12 w-auto p-2 lg:h-16"
             alt="Titlis Logo"
           />
         </Link>

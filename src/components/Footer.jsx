@@ -11,7 +11,7 @@ function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
               <a href="" className="flex items-center">
-              <img src={Logo} className="h-[5rem] lg:h-[6rem] p-4 " alt="Flowbite Logo" />
+              <img src={Logo} className="h-12 w-auto p-2 lg:h-16" alt="Titlis Tours logo" />
               </a>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
